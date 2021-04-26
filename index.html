@@ -4,25 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script
-        src="https://scripts.v1.authpack.io/index.js"
-        data-key="wga-client-key-09d4d983bca78ba5ae5ceb152">
+    <script type="text/javascript">
+        window.SHIELD_APP_ID = '01F478E4VY8N2Z9QESMZ2G9QGY';
+        (function () {
+          d = document;
+          s = d.createElement('script');
+          s.src = 'https://uploads.shield.popcode.cc/tag.js';
+          s.async = 1;
+          d.getElementsByTagName('head')[0].appendChild(s);
+        })();
     </script>
-    <meta
-        data-authpack="guard"
-        data-redirect="/app.html"
-        data-value="user"
-        data-trigger="present"
-    />
     <title>Dglobal Auth</title>
 </head>
 <body>
     <h1>Dglobal Auth</h1>
-    <button data-authpack="open">
-        Login
-    </button>
-    <div data-authpack="show">
-        Redirecting...
-    </div>
+    <button id="shield-login">Click to Login !</button>   
 </body>
 </html>
